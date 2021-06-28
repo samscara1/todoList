@@ -1,0 +1,41 @@
+.container{
+    background-color: #FF6666;
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.headline{
+    font-weight: normal;
+}
+
+.sort-btn{
+    background-color: #FF6666;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    margin: -2px;
+    margin-bottom: 10px;
+}
+
+.left{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.left:active{
+    background-color: white;
+    color: #FF6666;
+}
+
+.right{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.right:active{
+    background-color: white;
+    color: #FF6666;
+}

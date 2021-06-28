@@ -1,0 +1,36 @@
+.task{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.task__text{
+    text-decoration: none;
+    display:block;
+    width:65%;
+    word-wrap:break-word;
+    text-align: start;
+    /* text-decoration: line-through; */
+    
+}
+
+.task__text_linethrough{
+    text-decoration: line-through;
+}
+
+.task__btn{
+    background-color: #FF6666;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    width: 54px;
+    margin-right: 10px;
+}
+
+.task__checkbox{
+    margin-left: 10px;
+} 

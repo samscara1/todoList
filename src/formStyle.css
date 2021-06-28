@@ -1,0 +1,10 @@
+.new-task-form__submit-btn{
+    background-color: #FF6666;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+.new-task-form__text-input{
+    height: 17px;
+}
